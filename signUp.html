@@ -1,0 +1,88 @@
+<html>
+
+<head>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Assistant:wght@200..800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+20&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="g-view1">
+        <div class="g-container">
+            <div class="g-minnav">
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="logIn.html">log in</a></li>
+                    <li><a href="signUp.html">sign up</a></li>
+                </ul>
+            </div>
+
+            <form action="/action_page.php">
+
+                <table>
+                    <tr>
+                        <td><label for="usrname">Username</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" id="usrname" name="usrname" required></td>
+                    </tr>
+
+                    <td><label for="phone" style="color: #f7f5f2;">your phone</label></td>
+                    </tr>
+                    <tr>
+                        <td><input id="phone" type="phone" name="phNum"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email" style="color: #f7f5f2;">Email</label></td>
+                    </tr>
+                    <tr>
+                        <td><input id="email" type="email" name="email"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="psw">Password</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                                title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+                                required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="re-pass" style="color: #f7f5f2;">re-password</label></td>
+                    </tr>
+                    <tr>
+                        <td><input id="re-pass" type="password" name="re-pass"></td>
+                    </tr>
+                </table>
+                <div class="g-btns">
+                    <input type="submit" value="Sign up">
+                    <input type="reset" value="reset">
+                </div>
+
+            </form>
+            <p>Already have an account? <a href="logIn.html">log in</a></p>
+
+        </div>
+
+
+
+
+        <div id="message">
+            <h3>Password must contain the following:</h3>
+            <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+            <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+            <p id="number" class="invalid">A <b>number</b></p>
+            <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+        </div>
+    </div>
+
+    <script src="js.js" defer></script>  
+</body>
+
+</html>

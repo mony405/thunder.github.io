@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Thunder flutter course</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="home.css">
+  <script src="js.js"></script>
+  <style>
+    body {
+
+      background-image: linear-gradient(rgb(75, 16, 75), rgb(22, 22, 169))
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="logo"><img src="images/logo3.png"></div>
+    <div class="containernav">
+
+      <h3>Programming</h3>
+      <div class="inneritems">
+        <a onclick="moving()" href="#">AI</a>
+        <a onclick="moving()" href="#">Cyber Security</a>
+        <a onclick="moving()" href="Arduino.html">Arduino</a>
+        <a onclick="moving()" href="Net work (1).html">Network</a>
+        <a onclick="moving()" href="combuter science (1).html">computer science</a>
+      </div>
+      <h3>Languages</h3>
+      <div class="inneritems">
+        <a onclick="moving()" href="#">English</a>
+        <a onclick="moving()" href="french.html">French</a>
+        <a onclick="moving()" href="#">German</a>
+      </div>
+      <div class="h3">
+        <h3>Buisness</h3>
+      </div>
+
+      <div class="inneritems">
+        <a href="marketing2.html">Marketing</a>
+        <a href="saghir.html">Digital marketing</a>
+        <a href="saghir2.html">Buisness</a>
+        <a href="Marketing1.html">SEO</a>
+      </div>
+      <h3>Design</h3>
+      <div class="inneritems">
+        <a href="#">Graghic design</a>
+        <a href="#">Illustrator</a>
+        <a href="#">Canva</a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="y-navbar">
+    <div class="logo">
+      <a href="index.html">Th<div class="icon"><img src="icons/flash (1).png"></div>nder</a>
+    </div>
+    <div class="navmenu">
+      <ul class="topnav" id="hmytopnav">
+        <li><a href="index.html">Main</a></li>
+        <li><span onclick="openNav()"> Catagoties</span></li>
+        <li><a href="about.html">About</a></li>
+        <li><a onclick="mymessage()" href="#Contact">Contact</a></li>
+        <li><a href="logIn.html">Log in</a></li>
+        <li><a href="signUp.html">Sign up</a></li>
+      </ul>
+    </div>
+    <button class="nav-toggle" aria-label="toggle navigation"><i class="fa fa-cloud"
+        style="font-size:40px;"></i></button>
+  </div>
+  </head>
+
+  <body class="mmm">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    </style>
+    </head>
+
+    <body>
+
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 5</div>
+          <img src="images (1).jpeg" style="width:100%">
+          <div class="text">1</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 5</div>
+          <img src="pro1.jpg" style="width:100%">
+          <div class="text">2</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 5</div>
+          <img src="download.png" style="width:100%">
+          <div class="text">3</div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">4/5</div>
+          <img src="flutter_main_img.webp" style="width:100%">
+          <div class="text">4</div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">5/5</div>
+          <img src="images.jpeg" style="width:100%">
+          <div class="text">5</div>
+
+
+
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+      </div>
+      <br>
+
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+
+      </div>
+
+      <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) { slideIndex = 1 }
+          if (n < 1) { slideIndex = slides.length }
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex - 1].style.display = "block";
+          dots[slideIndex - 1].className += " active";
+        }
+      </script>
+      <h1>course content:</h1>
+      <ul>
+        <li>what is flutter?</li>
+        <li>Flutter and mobile application.</li>
+        <li>Flutter and Dart.</li>
+        <li>importance of flutter.</li>
+        <li>training on what you learn.</li>
+      </ul>
+      <!DOCTYPE html>
+      <html>
+
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+          /* Style all input fields */
+          input {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+          }
+
+          /* Style the submit button */
+          input[type=submit] {
+            background-color: #04AA6D;
+            color: white;
+          }
+.mmm{
+  text-decoration: none;
+}
+          /* Style the container for inputs */
+          .container {
+            background-color: rgb(22, 22, 169);
+            padding: 20px;
+          }
+
+          /* The message box is shown when the user clicks on the password field */
+          #message {
+            display: none;
+            background: #f1f1f1;
+            color: #000;
+            position: relative;
+            padding: 20px;
+            margin-top: 10px;
+          }
+
+          #message p {
+            padding: 10px 35px;
+            font-size: 18px;
+          }
+
+          /* Add a green text color and a checkmark when the requirements are right */
+          .valid {
+            color: green;
+          }
+
+          .valid:before {
+            position: relative;
+            left: -35px;
+            content: "✔";
+          }
+
+          /* Add a red text color and an "x" when the requirements are wrong */
+          .invalid {
+            color: red;
+          }
+
+          .invalid:before {
+            position: relative;
+            left: -35px;
+            content: "✖";
+          }
+        </style>
+      </head>
+
+      <body>
+
+        <h3>Password Validation</h3>
+        <p>Try to submit the form.</p>
+
+        <div class="container">
+          <form action="/action_page.php">
+            <label for="usrname">Username</label>
+            <input type="text" id="usrname" name="usrname" required>
+
+            <label for="psw">Password</label>
+            <input type="password" id="psw" name="psw" pattern="(?=.\d)(?=.[a-z])(?=.*[A-Z]).{8,}"
+              title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+              required>
+
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+
+        <div id="message">
+          <h3>Password must contain the following:</h3>
+          <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+          <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+          <p id="number" class="invalid">A <b>number</b></p>
+          <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+        </div>
+
+        <script>
+          var myInput = document.getElementById("psw");
+          var letter = document.getElementById("letter");
+          var capital = document.getElementById("capital");
+          var number = document.getElementById("number");
+          var length = document.getElementById("length");
+
+          // When the user clicks on the password field, show the message box
+          myInput.onfocus = function () {
+            document.getElementById("message").style.display = "block";
+          }
+
+          // When the user clicks outside of the password field, hide the message box
+          myInput.onblur = function () {
+            document.getElementById("message").style.display = "none";
+          }
+
+          // When the user starts to type something inside the password field
+          myInput.onkeyup = function () {
+            // Validate lowercase letters
+            var lowerCaseLetters = /[a-z]/g;
+            if (myInput.value.match(lowerCaseLetters)) {
+              letter.classList.remove("invalid");
+              letter.classList.add("valid");
+            } else {
+              letter.classList.remove("valid");
+              letter.classList.add("invalid");
+            }
+
+            // Validate capital letters
+            var upperCaseLetters = /[A-Z]/g;
+            if (myInput.value.match(upperCaseLetters)) {
+              capital.classList.remove("invalid");
+              capital.classList.add("valid");
+            } else {
+              capital.classList.remove("valid");
+              capital.classList.add("invalid");
+            }
+
+            // Validate numbers
+            var numbers = /[0-9]/g;
+            if (myInput.value.match(numbers)) {
+              number.classList.remove("invalid");
+              number.classList.add("valid");
+            } else {
+              number.classList.remove("valid");
+              number.classList.add("invalid");
+            }
+
+            // Validate length
+            if (myInput.value.length >= 8) {
+              length.classList.remove("invalid");
+              length.classList.add("valid");
+            } else {
+              length.classList.remove("valid");
+              length.classList.add("invalid");
+            }
+          }
+        </script>
+
+      </body>
+
+      </html>
+      <br>
+      <hr />
+      <div class="man">
+        <pre>Flutter is consider one of the best open-sourced 
+programmes using in develop inapplication of 
+smart phones &amp;improving
+uer-interface(android,ios).
+<a href="https://www.bing.com/ck/a?!&&p=0e25ad8909ea21edJmltdHM9MTcxNDI2MjQwMCZpZ3VpZD0yNDBhOTdjMS00MWYxLTY4NzUtMWZlNy04NDU1NDA4ZDY5OTcmaW5zaWQ9NTUxNg&ptn=3&ver=2&hsh=3&fclid=240a97c1-41f1-6875-1fe7-8455408d6997&psq=%d9%85%d9%82%d8%a7%d9%84%d8%aa+%d8%aa%d8%b4%d8%b1%d8%ad+%d9%85%d8%a7+%d9%87%d9%88+%d8%a7%d9%84%d9%81%d9%84%d8%a7%d8%aa%d8%b1&u=a1aHR0cHM6Ly8zYWxhbS5wcm8vcmFoaWNoZS9hcnRpY2xlcy93aGF0LWlzLWZsdXR0ZXItYW5kLWhvdy10by1nZXQtc3RhcnRlZCM6fjp0ZXh0PSVEOSU4MSVEOSU4NCVEOCVBNyVEOCVBQSVEOCVCMSUyMCVEOSU4NyVEOSU4OCUyMFNESyUyMCVEOSU4NSVEOSU4NiUyMCVEOCVCNCVEOCVCMSVEOSU4MyVEOCVBOSUyMCVEOCVBQyVEOSU4OCVEOCVBQyVEOSU4NCUyMCVEOSU4NSVEOCVBRSVEOCVCNSVEOCVCNSUyMCVEOSU4NCVEOCVBOCVEOCVCMSVEOSU4NSVEOCVBQyVEOCVBOSwlRDglQTclRDklODQlRDglQUElRDklOEElMjAlRDglQUElRDglQUMlRDglQjklRDklODQlRDklODclMjAlRDklOEElRDglQTglRDklODYlRDklOEElMjAlRDglQUElRDglQjclRDglQTglRDklOEElRDklODIlRDglQTclRDglQUElMjAlRDklODMlRDglQTclRDklODUlRDklODQlRDglQTklMjAlRDklODElRDklOEElMjAlRDglQTMlRDklODIlRDklODQlMjAlRDklODglRDklODIlRDglQUEu&ntb=1"target="blank" >what is flutter?</a>
+</pre>
+        <img src="images (3).jpeg">
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      </b>
+      <hr />
+
+      <div class=" mnr">
+        <pre> Flutter for beginers:
+
+  in this website we introduce a
+  flutter course for beginers
+  which is avery good chance 
+  to enter the Flutter world.
+  <a href="https://www.youtube.com/watch?v=BOt3MNB71gI" target="_blank">youtube.</a>
+  </pre>
+        <hr>
+        <iframe width="400" height="300" src="https://www.youtube.com/embed/VPvVD8t02U8?si=BBUlETVMfmuNjjmf"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      <div class="-mnr">
+        <pre> An advanced level of Flutter course:
+
+ if you want to improve yourslf in this field
+ this level of the course is for you.
+ <a href="https://www.youtube.com/watch?v=4zz7FC6QD98&list=PLFyjjoCMAPtxq8V9fuVmgsYKLNIKqSEV4" target="_blank">highlevel-flutter course. </a>
+</pre>
+        <iframe width="300" height="215" src="https://www.youtube.com/embed/4zz7FC6QD98?si=2D3fEbBHh4Kl92ul"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    
+        </div>
+      </div>
+    </body>
+
+</html>
