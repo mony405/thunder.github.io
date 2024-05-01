@@ -6416,7 +6416,8 @@ html {
         background-position: center;
     }
 .navbar .logo{
-    margin-bottom: 10px;
+    position: absolute;
+    top: 5px;
 }
     .h-view1 .h-welcome {
         width: 95%;
@@ -6424,9 +6425,6 @@ html {
         position: static;
         margin: auto;
         padding-inline: 15px;
-    }
-    .h-view1 .h-welcome h2{
-       font-size: 32px;
     }
 
     .h-view1 .h-welcome a {
