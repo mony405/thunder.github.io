@@ -6221,11 +6221,11 @@ html {
     justify-content: space-evenly;
     padding-bottom: 50px;
 }
-.aboutinfo .video{
+.aboutinfo .videok{
     width: 30% !important;
 }
-.aboutinfo .video video{
-    width: 100% !important;
+.aboutinfo .videok video{
+    width: 95% !important;
     border-radius: 30px;
 }
 .aboutinfo .info{
