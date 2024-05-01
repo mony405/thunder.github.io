@@ -6278,12 +6278,10 @@ html {
     padding-bottom: 50px;
 }
 .aboutinfo .video{
-    width: 30%;
-    border-radius: 30px;
+    width: 30% !important;
 }
 .aboutinfo .video vid{
-    width: 100%;
-    border-radius: 30px;
+    width: 100% !important;
 }
 .aboutinfo .info{
     width: 45%;
