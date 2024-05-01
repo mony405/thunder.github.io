@@ -6415,10 +6415,7 @@ html {
         background-image: url(bgph.jpg);
         background-position: center;
     }
-.navbar .logo{
-    position: absolute;
-    top: 5px;
-}
+
     .h-view1 .h-welcome {
         width: 95%;
         text-align: center;
@@ -6476,7 +6473,7 @@ html {
     }
 
     .h-view3 .h-sec2 {
-        width: 100%;
+        width: 80%;
         display: flex;
     }
 
@@ -6490,9 +6487,12 @@ html {
         height: fit-content;
         padding-bottom: 40px;
     }
+    .h-view4 .h-icon span{
+       width: 90%;
+    }
 
     .h-view4 .h-fi3 {
-        width: fit-content;
+        width: 80%;
         height: fit-content;
     }
 
