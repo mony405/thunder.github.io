@@ -6244,6 +6244,159 @@ html {
     right: 10px;
 }
 
+.about{
+    height: fit-content !important;
+}
+.about-view1{
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    position: absolute;
+    top: 40px;
+    color: rgb(222, 228, 228);
+}
+.aboutheader{
+    background-color: #1A1919;
+    text-align: center;
+    width: 100%;
+    height: 30%;
+}
+.aboutheader h2{
+   color: azure;
+   padding-top: 50px;
+}
+.aboutinfo .info p{
+   color: rgb(208, 216, 216);
+}
+.aboutheader a{
+   color: rgb(222, 228, 228);
+}
+.aboutinfo{
+  padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+.aboutinfo .photo{
+    width: 30%;
+}
+.aboutinfo .photo img{
+    width: 100%;
+}
+.aboutinfo .info{
+    width: 45%;
+    align-self: center;
+    font-size: 25px;
+}
+.aboutinfo .info a{
+    margin-top: 10px;
+   padding: 7px 13px;
+   background-color: rgb(114, 113, 113);
+   border-radius: 50px;
+}
+.aboutinfo .info a:hover{
+   background-color: rgb(16, 1, 1);
+   color: blueviolet;
+}
+
+.about-view2{
+    background-color: #000000;
+    width: 100%;
+    position: absolute;
+    top: 110%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-inline: 50px;
+}
+
+
+.about-view2 h1 {
+    color: #ebe5e5;
+}
+.about-view2 .gamed{
+    width: 37%;
+}
+.about-view2 .skill {
+    margin-bottom: 50px;
+    width: 100%;
+}
+.about-view2 .skill label{
+   color: #ddd;
+}
+
+.about-view2 .skill-bar {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.about-view2 .skill-level {
+    height: 7px;
+    background-color: #878686;
+    text-align: right;
+    padding-right: 5px;
+    line-height: 20px;
+    color: white;
+    border-radius: 50px;
+}
+.about-view2 .experience{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+}
+.about-view2 .experience .exp{
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+    align-self: center;
+}
+.about-view2 .experience .exp h2{
+   color: #ddd;
+   font-size: 35px;
+}
+.about-view2 .experience .exp p{
+   color: #ffffff;
+   font-size: 20px;
+}
+.about-view3{
+    position: absolute;
+    bottom: -120%;
+    width: 100%;
+    height: 50%;
+}
+.about-view3 .bg{
+    width: 80%;
+    height: 80%;
+    background-color: #1a1919;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    color: #ddd;
+    padding-top: 15px;
+}
+.about-view3 .bg h3{
+   margin-top: 50px;
+}
+.about-view3 .bg a{
+   padding: 10px 19px;
+   background-color: #000000;
+   border-radius: 50px;
+   color: aliceblue;
+}
+.about-view3 .bg a:hover{
+   background-color: #ffffff;
+   color: rgb(0, 0, 0);
+}
+
+.about-view5{
+    background-color: #1A1919;
+    top: 230%;
+}
+.about-view5 .h-sec{
+    background-color: #1A1919;
+}
 
 
 
