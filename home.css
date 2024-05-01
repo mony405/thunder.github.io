@@ -6415,7 +6415,7 @@ html {
         background-image: url(bgph.jpg);
         background-position: center;
     }
-.navbar{
+.navbar .logo{
     margin-bottom: 10px;
 }
     .h-view1 .h-welcome {
@@ -6426,7 +6426,7 @@ html {
         padding-inline: 15px;
     }
     .h-view1 .h-welcome h2{
-       font-size: 27px;
+       font-size: 32px;
     }
 
     .h-view1 .h-welcome a {
