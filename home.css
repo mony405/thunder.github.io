@@ -6412,15 +6412,21 @@ html {
 
 @media (max-width:870px) {
     .h-view1 {
-        background-image: url(2c736911-01d2-4cef-a6fa-cf8a1f9ed823.jpg);
+        background-image: url(bgph.jpg);
         background-position: center;
     }
-
+.navbar{
+    margin-bottom: 10px;
+}
     .h-view1 .h-welcome {
         width: 95%;
         text-align: center;
         position: static;
         margin: auto;
+        padding-inline: 15px;
+    }
+    .h-view1 .h-welcome h2{
+       font-size: 27px;
     }
 
     .h-view1 .h-welcome a {
