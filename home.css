@@ -5452,7 +5452,7 @@ input[type=reset] {
     background-image: url('python.png');
     background-size: cover;
     background-position: center;
-    height: 90vh;
+    height: 92vh;
     margin-top: 60px;
 }
 
@@ -6009,9 +6009,9 @@ html {
 
 .kk .slide {
     flex: 0 0 350px !important;
-    height: 350px !important;
+    height: 370px !important;
     margin-left: 60px !important;
-    margin-right: 30px !important;
+    margin-right: 40px !important;
     background-color: rgb(4, 4, 99) !important;
     border-radius: 60px !important;
     text-align: center !important;
