@@ -6283,6 +6283,7 @@ html {
 }
 .aboutinfo .video vid{
     width: 100%;
+    border-radius: 30px;
 }
 .aboutinfo .info{
     width: 45%;
