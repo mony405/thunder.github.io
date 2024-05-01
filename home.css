@@ -6224,8 +6224,9 @@ html {
 .aboutinfo .video{
     width: 30% !important;
 }
-.aboutinfo .video vid{
+.aboutinfo .video video{
     width: 100% !important;
+    border-radius: 30px;
 }
 .aboutinfo .info{
     width: 45%;
