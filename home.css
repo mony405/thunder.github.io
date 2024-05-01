@@ -6277,10 +6277,10 @@ html {
     justify-content: space-evenly;
     padding-bottom: 50px;
 }
-.aboutinfo .photo{
+.aboutinfo .video{
     width: 30%;
 }
-.aboutinfo .photo img{
+.aboutinfo .video vid{
     width: 100%;
 }
 .aboutinfo .info{
