@@ -5389,7 +5389,7 @@ input[type=reset] {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: relative;
-    left: 610px;
+    left: 610px !important;
 }
 
 .nnn.mn {
