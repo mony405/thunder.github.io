@@ -2052,7 +2052,7 @@ input[type=reset] {
 .ap {
     margin-top: 0;
     /*background-color: rgb(156, 147, 147); */
-    background: url(conputer.jpg);
+    background:url(conputer.jpg);
     height: 540px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -5447,7 +5447,8 @@ input[type=reset] {
 .k {
     background-color: aliceblue !important;
 }
-
+/* mennaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa samir */
+/* python */
 .khome {
     position: relative;
     background-image: url('python.png');
@@ -5523,7 +5524,7 @@ input[type=reset] {
 
 }
 
-/*  */
+/* nave bar */
 .knave ul {
     display: flex;
     gap: 60px;
@@ -5543,17 +5544,14 @@ input[type=reset] {
     color: blue;
     font-size: 23px;
     text-decoration: underline;
-
 }
-
 .knave {
     border: solid .2px rgba(128, 128, 128, 0.503);
     background-color: #9797972f;
     width: 600px;
     border-radius: 5px;
 }
-
-/*  */
+/* about */
 .sheeta,
 .sheeta2 {
     display: flex;
@@ -5598,20 +5596,18 @@ input[type=reset] {
     width: 100%;
 }
 
-/*  */
+/* video */
 .kvid {
     border-radius: 40px;
     width: 50%;
     height: 470;
 }
 
-/*  */
+/* instructors */
 .kinstrucrors h5 {
     margin-left: 20px;
     font-size: 30px;
 }
-
-
 .kinstrucrors {
     display: flex;
     justify-content: space-around;
@@ -5637,14 +5633,7 @@ input[type=reset] {
 .kinstrucrors p {
     font-size: small;
 }
-
-/*  */
-.kaud {
-    margin-right: auto;
-    margin-left: auto;
-}
-
-/*  */
+/* reviews */
 .k #rating {
     margin: 0%;
     padding: 0%;
@@ -5762,7 +5751,7 @@ input[type=reset] {
     top: 10px;
     left: 350px;
 }
-
+/* Ai */
 html {
     scroll-behavior: smooth;
 }
