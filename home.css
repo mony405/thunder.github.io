@@ -5561,6 +5561,7 @@ input[type=reset] {
 
 .ktext {
     width: 50%;
+    margin-left: 10px;
 }
 
 .ktext p {
@@ -5599,7 +5600,7 @@ input[type=reset] {
 /* video */
 .kvid {
     border-radius: 40px;
-    width: 50%;
+    width: 50%;margin-left: 10px;
     height: 470;
 }
 
