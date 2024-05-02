@@ -6569,3 +6569,198 @@ html {
     }
 
 }
+/* مريم عادل */
+@media screen and (max-width:2000px){
+.ddd{
+    background-color: black;
+    width: 100%;
+    animation: back_co 10s infinite ease;
+}
+}
+ @keyframes back_co{
+    0%{
+        background-color: black;
+    }
+    50%{background-color:rgb(139, 138, 137);
+    }
+    100%{
+        background-color: rgb(95, 93, 89);
+    }
+
+}
+.ddd pre{
+color:black;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-size: 27px;
+margin-left: 25px;
+margin-bottom: 10px;
+line-height: 1.7;
+
+position: relative;
+top:10px;
+}
+.ddd span{
+    margin: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 27px;
+    margin-left: 25px;
+    margin-bottom: 7px;
+    position: relative;
+    bottom:10px;
+    color:black;
+    }
+    .ddd p{margin-top: -15px;
+    
+    }
+    .ddd #aT1{
+padding: 2rem;
+border-radius:10px;
+background-color:aliceblue;
+background-position:relative;
+display:grid;
+justify-content:center;
+word-wrap: break-word;
+margin: 10px 10px;
+max-width: 650px;
+width: 95vw;
+position: relative;
+left:250px;
+top:20px;
+bottom: 40px;
+box-shadow: 8px 7px 5px #ffffff;
+    }
+    .ddd #aT2{
+padding: 1rem;
+padding-left: 0;
+padding-right: 0;
+width:500px;
+border-radius:10px ;
+display:flex;
+gap:40px;
+overflow-x:auto;
+scroll-snap-align:x proximity;
+background-color:black;
+position: relative;
+bottom:10px;
+left:85px;
+}
+ .ddd iframe{
+flex:1 0 100%;
+object-fit: cover;
+scroll-snap-align: start; 
+border-radius: 10px;
+}
+.ddd #aT3{
+padding: 2rem;
+border-radius:10px;
+background-color:aliceblue;
+background-position:relative;
+display:grid;
+justify-content:center;
+word-wrap: break-word;
+margin: 10px 10px;
+max-width: 650px;
+width: 95vw;
+position: relative;
+top:20px;
+bottom:40px;
+left:250px;
+box-shadow: 8px 7px 5px #ffffff;
+    }
+.ddd #aT4{
+    padding: 1rem;
+    padding-left: 0;
+    padding-right: 0;
+    width:500px;
+    border-radius:10px ;
+    display:flex;
+    gap:40px;
+    overflow-x:auto;
+    scroll-snap-align:x proximity;
+    background-color:black;
+    position: relative;
+    bottom:10px;
+    left:135px;
+    }
+    .ddd #aT5{
+    padding: 2rem;
+    border-radius:10px;
+    background-color:aliceblue;
+    background-position:relative;
+    display:grid;
+    justify-content:center;
+    word-wrap: break-word;
+    margin: 10px 10px;
+    max-width: 650px;
+    width: 95vw;
+    position: relative;
+    left:250px;
+    top:20px;
+    bottom: 40px;
+    box-shadow: 8px 7px 5px #ffffff;
+    }
+    .ddd #aT6{
+        padding: 1rem;
+        padding-left: 0;
+        padding-right: 0;
+        width:500px;
+        border-radius:10px ;
+        display:flex;
+        gap:40px;
+        overflow-x:auto;
+        scroll-snap-align:x proximity;
+        background-color:black;
+        position: relative;
+        bottom:10px;
+        left:123px;
+        }
+
+
+.ddd .afooter2{
+    background-color: #000000; 
+ 
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+    top: 50px;
+    
+  }
+.ddd .afooter2 .ashare2{
+    display: flex;
+    gap:1.5rem;
+    gap:18px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .ddd .afooter2 .acredit2{
+    padding:2.5rem 1rem;
+    padding:50px 20px ;
+    color:rgb(255, 255, 255);
+    font-weight: normal;
+    font-size: 2rem;
+    font-size:40px ;
+  }
+  .ddd .abtn2{
+background:none;
+display: inline;
+border-style:solid ;
+position: relative;
+top: 20px;
+border-radius: 7px;
+border-color:rgb(255, 255, 255);
+margin: 10px;
+padding: 10px;
+text-decoration: none;
+color:aliceblue;
+font-size:20px;
+}
+@keyframes back4{
+    from{
+        background-color:none;
+        color:aliceblue;
+    }
+    to{
+        background-color:rgb(247, 247, 247);
+        color:black;
+    }
+}
