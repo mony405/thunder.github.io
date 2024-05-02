@@ -5441,6 +5441,7 @@ input[type=reset] {
     position: relative;
     top: 400px;
     display: inline-block;
+    left: 150px;
 }
 
 .k {
