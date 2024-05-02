@@ -5321,19 +5321,6 @@ input[type=reset] {
     position: relative;
     left: 1000px;
     bottom: 200px;
-
-
-}
-
-.mmm a:link {
-
-    text-decoration: underline;
-    color: aqua;
-}
-
-.mmm a:visited {
-    text-decoration: underline;
-    color: white;
 }
 
 .mmm .mnr {
@@ -5413,12 +5400,12 @@ input[type=reset] {
 
 .nnn hr {
     position: relative;
-    bottom: 110px;
+    bottom: -40px;
 }
 
 .nnn h1 {
     position: relative;
-    top: 350px;
+    top: 90px;
     color: white;
     left: 40px;
     font-size: 50px;
@@ -5428,7 +5415,6 @@ input[type=reset] {
 .nnn ul {
     font-size: 50px;
     position: relative;
-    top: 350px;
     left: 50px;
     color: white;
 }
@@ -5439,7 +5425,7 @@ input[type=reset] {
     padding-left: 50px;
     padding-bottom: 20px;
     position: relative;
-    top: 400px;
+    top: 50px;
     display: inline-block;
     left: 150px;
 }
